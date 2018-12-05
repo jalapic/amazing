@@ -2,22 +2,21 @@
 % Please edit documentation in R/add_stuff.R
 \name{add_stuff}
 \alias{add_stuff}
-\title{Add stuff
- @param a A number
- @param b Another number
- @return Yet another number
- @examples
-     add_stuff(3,2)
- @export}
+\title{Add stuff}
 \usage{
 add_stuff(a, b)
 }
+\arguments{
+\item{a}{A number}
+
+\item{b}{Another number}
+}
+\value{
+Yet another number
+}
 \description{
 Add stuff
- @param a A number
- @param b Another number
- @return Yet another number
- @examples
+}
+\examples{
      add_stuff(3,2)
- @export
 }
